@@ -12,20 +12,20 @@ Content of each .mat file
 Each .mat file contains (N+1) structs where N is the number of concepts of that particular problem.
 Except the last struct, rest of the structs contain the following information corresponding to each concept:
 
-name:			Name of the Concept
-nx:			No. of Design Variables
-nf:			No. of Objective Functions
-scaling_factor:		Scaling factor of that concept
-PF:			Pareto-optimal front of that concept
-range:			Upper bounds and Lower bounds of the design variables
-ng:			No. of Constraints [0 in this case]
-shifting_factor:	Shifting factor of that concept
-
-The last struct contains the following information:
-ideal:			Ideal Point based on the overall PF of the problem
-nadir:			Nadir Point based on the overall PF of the problem
-PF:			The combined PF or the overall PF of the problem
-f:			Concept-wise optimum values of the objective functions
+	name:			Name of the Concept
+	nx:			No. of Design Variables
+	nf:			No. of Objective Functions
+	scaling_factor:		Scaling factor of that concept
+	PF:			Pareto-optimal front of that concept
+	range:			Upper bounds and Lower bounds of the design variables
+	ng:			No. of Constraints [0 in this case]
+	shifting_factor:	Shifting factor of that concept
+	
+	The last struct contains the following information:
+	ideal:			Ideal Point based on the overall PF of the problem
+	nadir:			Nadir Point based on the overall PF of the problem
+	PF:			The combined PF or the overall PF of the problem
+	f:			Concept-wise optimum values of the objective functions
 
 Steps to use the .mat file
 
