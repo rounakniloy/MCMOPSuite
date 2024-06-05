@@ -7,8 +7,8 @@ All publications which use this code should acknowledge the use of "MCMOP Suite"
 
 R. S. Niloy, H. K. Singh, and T. Ray, "A benchmark test suite for evolutionary multi-objective multi-concept optimization," Swarm and Evolutionary Computation, vol. 84, p. 101429, Feb. 2024.
 
-%%%%%%%%% Content of each .mat file %%%%%%%%%
- 
+Content of each .mat file
+
 Each .mat file contains (N+1) structs where N is the number of concepts of that particular problem.
 Except the last struct, rest of the structs contain the following information corresponding to each concept:
 
@@ -27,7 +27,7 @@ nadir:			Nadir Point based on the overall PF of the problem
 PF:			The combined PF or the overall PF of the problem
 f:			Concept-wise optimum values of the objective functions
 
-%%%%%%%%% Steps to use the .mat file %%%%%%%%%
+Steps to use the .mat file
 
 The MATLAB representation of the problems calls PlatEMO libraries for evaluation of the objective functions.
 To do that the following steps are to be done: 
