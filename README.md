@@ -1,13 +1,12 @@
-# MCMOPSuite
-Multi-Concept Multi Objective Optimization Problem Suite (MCMOP Suite)
-Copyright (c) MDO Group, UNSW, Australia. 
+# MCMOP Suite
+**Multi-Concept Multi Objective Optimization Problem Suite (MCMOP Suite)**
+
+Copyright (c) MDO Lab (http://www.mdolab.net), UNSW, Australia. 
 
 You are free to use the MCMOP Suite for research purposes. 
 All publications which use this code should acknowledge the use of "MCMOP Suite" and references: 
 
-R. S. Niloy, H. K. Singh, and T. Ray, "A benchmark test suite for evolutionary multi-objective multi-concept optimization," Swarm and Evolutionary Computation, vol. 84, p. 101429, Feb. 2024.
-
-https://doi.org/10.1016/j.swevo.2023.101429
+R. S. Niloy, H. K. Singh, and T. Ray, "A benchmark test suite for evolutionary multi-objective multi-concept optimization," Swarm and Evolutionary Computation, vol. 84, p. 101429, Feb. 2024, https://doi.org/10.1016/j.swevo.2023.101429
 
 Content of each .mat file
 
@@ -29,7 +28,7 @@ Except the last struct, rest of the structs contain the following information co
 	PF:			The combined PF or the overall PF of the problem
 	f:			Concept-wise optimum values of the objective functions
 
-Steps to use the .mat file
+**Steps to use the .mat file**
 
 The MATLAB representation of the problems calls PlatEMO libraries for evaluation of the objective functions.
 To do that the following steps are to be done: 
@@ -50,7 +49,8 @@ To do that the following steps are to be done:
 	6. Now you can use the PlatEMO functions to evaluate the objective functions of the problems of MCOPSuite. "Driver.m" file contains sample code snippets on how to Initialize Population and Evaluate the Objective functions using PlatEMO.
 
 
-# Acknowledgment
+
+**Acknowledgment**
 
 We would like to acknowledge the creators of PlatEMO for providing a powerful MATLAB platform for evolutionary multi-objective optimization.
 
