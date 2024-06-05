@@ -7,6 +7,8 @@ All publications which use this code should acknowledge the use of "MCMOP Suite"
 
 R. S. Niloy, H. K. Singh, and T. Ray, "A benchmark test suite for evolutionary multi-objective multi-concept optimization," Swarm and Evolutionary Computation, vol. 84, p. 101429, Feb. 2024.
 
+https://doi.org/10.1016/j.swevo.2023.101429
+
 Content of each .mat file
 
 Each .mat file contains (N+1) structs where N is the number of concepts of that particular problem.
@@ -51,7 +53,10 @@ To do that the following steps are to be done:
 # Acknowledgment
 
 We would like to acknowledge the creators of PlatEMO for providing a powerful MATLAB platform for evolutionary multi-objective optimization.
+
 PlatEMO: https://github.com/BIMK/PlatEMO
+
 If you use PlatEMO in your research or work, please cite the following reference:
+
 Ye Tian, Ran Cheng, Xingyi Zhang, and Yaochu Jin, "PlatEMO: A MATLAB Platform for Evolutionary Multi-Objective Optimization" [Educational Forum], IEEE Computational Intelligence Magazine, 2017, 12(4): 73-87.
 
