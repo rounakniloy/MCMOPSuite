@@ -1,17 +1,11 @@
 # MCMOPSuite
 Multi-Concept Multi Objective Optimization Problem Suite (MCMOP Suite)
-% Please cite the following paper if you use this test problem suite.
+Copyright (c) MDO Group, UNSW, Australia. 
 
-%------------------------------- Copyright ------------------------------------
-% Copyright (c) MDO Group, UNSW, Australia. You are free to use the MCMOP 
-% Suite for research purposes. All publications which use this code 
-% should acknowledge the use of "MCMOP Suite" and references: 
-%
-% R. S. Niloy, H. K. Singh, and T. Ray, "A benchmark test suite for evolutionary 
-% multi-objective multi-concept optimization," Swarm and Evolutionary Computation, 
-% vol. 84, p. 101429, Feb. 2024.
-%------------------------------------------------------------------------------ 
+You are free to use the MCMOP Suite for research purposes. 
+All publications which use this code should acknowledge the use of "MCMOP Suite" and references: 
 
+R. S. Niloy, H. K. Singh, and T. Ray, "A benchmark test suite for evolutionary multi-objective multi-concept optimization," Swarm and Evolutionary Computation, vol. 84, p. 101429, Feb. 2024.
 
 %%%%%%%%% Content of each .mat file %%%%%%%%%
  
@@ -54,13 +48,10 @@ To do that the following steps are to be done:
 	6. Now you can use the PlatEMO functions to evaluate the objective functions of the problems of MCOPSuite. "Driver.m" file contains sample code snippets on how to Initialize Population and Evaluate the Objective functions using PlatEMO.
 
 
-%%%%%%%%% Acknowledgment %%%%%%%%%
+# Acknowledgment
 
 We would like to acknowledge the creators of PlatEMO for providing a powerful MATLAB platform for evolutionary multi-objective optimization.
-
 PlatEMO: https://github.com/BIMK/PlatEMO
-
 If you use PlatEMO in your research or work, please cite the following reference:
-
 Ye Tian, Ran Cheng, Xingyi Zhang, and Yaochu Jin, "PlatEMO: A MATLAB Platform for Evolutionary Multi-Objective Optimization" [Educational Forum], IEEE Computational Intelligence Magazine, 2017, 12(4): 73-87.
 
