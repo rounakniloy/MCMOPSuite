@@ -8,7 +8,7 @@ All publications which use this code should acknowledge the use of "MCMOP Suite"
 
 R. S. Niloy, H. K. Singh, and T. Ray, "A benchmark test suite for evolutionary multi-objective multi-concept optimization," Swarm and Evolutionary Computation, vol. 84, p. 101429, Feb. 2024, https://doi.org/10.1016/j.swevo.2023.101429
 
-Content of each .mat file
+_Content of each .mat file_
 
 Each .mat file contains (N+1) structs where N is the number of concepts of that particular problem.
 Except the last struct, rest of the structs contain the following information corresponding to each concept:
