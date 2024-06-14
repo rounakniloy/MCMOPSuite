@@ -39,14 +39,14 @@ To do that the following steps are to be done:
 
 	3. Copy the "Multi-objective optimization" folder located at `C:~\PlatEMO-master\PlatEMO\Problems\Multi-objective optimization`. Note: Replace `C:\~` with the actual path where you extracted PlatEMO.
 
-	4. Paste the copied folder to `C:~\MCOPSuite`. Note: Replace `C:\~` with the location where you have downloaded and extracted 'MCOPSuite' folder.
+	4. Paste the copied folder to `C:~\MCMOPSuite`. Note: Replace `C:\~` with the location where you have downloaded and extracted 'MCMOPSuite' folder.
 
 	5. In MATLAB, add the path to the "Multi-objective optimization" folders, including all folders and subfolders by running the following command:
 
-		platemoPath = 'C:\~\MCOPSuite\Multi-objective optimization';  % Replace with the actual path
+		platemoPath = 'C:\~\MCMOPSuite\Multi-objective optimization';  % Replace with the actual path
 		addpath(genpath(platemoPath));
 
-	6. Now you can use the PlatEMO functions to evaluate the objective functions of the problems of MCOPSuite. "Driver.m" file contains sample code snippets on how to Initialize Population and Evaluate the Objective functions using PlatEMO.
+	6. Now you can use the PlatEMO functions to evaluate the objective functions of the problems of MCMOPSuite. "Driver.m" file contains sample code snippets on how to Initialize Population and Evaluate the Objective functions using PlatEMO.
 
 
 
