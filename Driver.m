@@ -1,22 +1,22 @@
-%%%%%%%%% Test Problem Suite Name: Multi-Concept Multi Objective Optimization Problem Suite (MCOP Suite) %%%%%%%%%
+%%%%%%%%% Test Problem Suite Name: Multi-Concept Multi Objective Optimization Problem Suite (MCMOP Suite) %%%%%%%%%
 
 % Please cite the following paper if you use this test problem suite.
 
 %------------------------------- Copyright ------------------------------------
-% Copyright (c) MDO Group, UNSW, Australia. You are free to use the MCOP 
+% Copyright (c) MDO Group, UNSW, Australia. You are free to use the MCMOP 
 % Suite for research purposes. All publications which use this code 
-% should acknowledge the use of "MCOP Suite" and references: 
+% should acknowledge the use of "MCMOP Suite" and references: 
 %
-% "R. S. Niloy, H. K. Singh, T. Ray, A benchmark test suite for evolutionary 
-% multi-objective multi-concept optimization, Swarm and Evolutionary 
-% Computation, 2023 (Under review)"
+% R. S. Niloy, H. K. Singh, and T. Ray, "A benchmark test suite for evolutionary 
+% multi-objective multi-concept optimization," Swarm and Evolutionary Computation, 
+% vol. 84, p. 101429, Feb. 2024.
 %------------------------------------------------------------------------------ 
 
 
 clc; clear all; close all;
 
 %% Load Problem File
-load("MCOP_I1.mat");
+load("MCMOP_I1.mat");
 
 
 for i=1:size(prob,2)-1
